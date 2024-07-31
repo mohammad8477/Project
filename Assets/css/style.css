@@ -1,5 +1,5 @@
 .body-bg{
-    background-color: #F5F5F5;
+    background-color: #ecebeb;
 }
 
 .add-text{
@@ -30,4 +30,12 @@
 
 .ads:hover{
     border:2px solid #304aca !important;
+}
+
+.Feedback-text{
+    line-height: 2.2rem;
+}
+
+.font-size{
+    font-size: 2rem;
 }
