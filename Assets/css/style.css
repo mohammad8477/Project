@@ -1,3 +1,12 @@
 .body-bg{
     background-color: #E6E6E6;
 }
+
+.add-text{
+    line-height: 2rem;
+}
+
+.primary-btn{
+    background-color: #304aca !important;
+    color: white !important;
+}
