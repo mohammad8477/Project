@@ -1,5 +1,5 @@
 .body-bg{
-    background-color: #E6E6E6;
+    background-color: #F5F5F5;
 }
 
 .add-text{
@@ -9,4 +9,25 @@
 .primary-btn{
     background-color: #304aca !important;
     color: white !important;
+}
+
+.mt-6{
+    margin-top: 80px;
+}
+
+/* Fonts */
+.rubik-font {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ads{
+    border: 2px solid rgb(213, 213, 213);
+    transition-duration: 0.5s;
+}
+
+.ads:hover{
+    border:2px solid #304aca !important;
 }

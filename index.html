@@ -11,10 +11,17 @@
     <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
     <script src="Assets/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
     <!-- title name -->
     <title>Mahmoodi</title>
 </head>
-<body class="body-bg">
+
+
+<body class="body-bg rubik-font">
 
     <!-- start project -->
     <section>
@@ -59,7 +66,7 @@
 
                 <!-- Logo -->
                 <div>
-                    <a href=""><img src="Assets/Img/Header/daneshjoyar-logo.svg" alt=""></a>
+                    <a href="https://www.daneshjooyar.com/"><img src="Assets/Img/Header/daneshjoyar-logo.svg" alt=""></a>
                 </div>
 
                 <!-- Profile offcanvas -->
@@ -77,8 +84,8 @@
                 
                 <!-- Button to open the offcanvas sidebar -->
                 <button class="btn btn-light me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
-                    <span>محمد بزی</span>
-                    <span class="text-body-secondary">مدرس</span>
+                    <span class="fw-bold">محمد بزی</span>
+                    <span class="opacity-75">مدرس</span>
                 </button>
                 
                 
@@ -95,7 +102,7 @@
         <section class="container">
 
             <!-- add+ service -->
-            <section class="d-flex justify-content-between mt-5">
+            <section class="d-flex justify-content-between mt-5 align-items-end">
 
                 <!-- Video -->
                 <div class="">
@@ -107,15 +114,15 @@
                 <div class="w-50">
 
                     <!-- header -->
-                    <h2 dir="rtl">سرویس اَد پِلاس مدرسین</h2>
+                    <h2 dir="rtl" class="fw-bold">سرویس اَد پِلاس مدرسین</h2>
 
                     <!-- text -->
-                    <p dir="rtl" class="mt-4 add-text"
+                    <p dir="rtl" class="mt-3 add-text"
                     >شانست رو امتحان کن و یکی از 1 + 10 جعبه رو انتخاب کن. تویه هر کدوم از این جعبه یک درصد تخفیف هیجان انگیز بین 60 تا 80 درصد + امتیاز خفنی که بهت کمک میکنه جزو 11 نفر اول بشی و همچنین به حداقل امتیاز مورد نیاز برای باز کردن جعبه شگفت انگیز برسی.
                     </p>
 
                     <!-- button -->
-                    <button class="btn btn-primary primary-btn" dir="rtl">
+                    <button class="btn btn-primary primary-btn mt-5" dir="rtl">
 
                         <span>درخواست کمپین فروش ویژه</span>
 
@@ -134,6 +141,290 @@
 
 
             </section>
+
+
+            <!-- Start campain description -->
+            <section class="mt-6">
+
+                <!-- Srart Accordion -->
+                <div id="accordion" dir="rtl">
+
+                    <div class="card mt-2">
+                        <div class="card-header d-flex justify-content-between">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                <span class="fw-bold">کمپین های ویژه چه مزیتی برای فروش دوره های من داره؟</span>
+                            </a>
+
+                            <img src="Assets/Img/Body/Campain description/up.svg" alt="">
+
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                            <span class="opacity-75">شانست رو امتحان کن و یکی از 1 + 10 جعبه رو انتخاب کن. تویه هر کدوم از این جعبه یک درصد تخفیف هیجان انگیز بین 60 تا 80 درصد + امتیاز خفنی که بهت کمک میکنه جزو 11 نفر اول بشی و همچنین به حداقل امتیاز مورد نیاز برای باز کردن جعبه شگفت انگیز برسی.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-flex justify-content-between">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                <span class="fw-bold">تا چه مبلغی میتونم برای فروش بیشتر دوره هام سرمایه گذاری کنم؟</span>
+                            </a>
+
+                            <img src="Assets/Img/Body/Campain description/down.svg" alt="">
+
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum..
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-flex justify-content-between">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                                <span class="fw-bold">گزارش کمپین ویژه اجرا شده با بودجه مشخص شده من به چه شکلی قابل دسترسی هست؟</span>
+                            </a>
+
+                            <img src="Assets/Img/Body/Campain description/down.svg" alt="">
+
+                        </div>
+                        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum..
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-flex justify-content-between">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                                <span class="fw-bold">کمپین منیجر دانشجویار از چه طریقی با من در ازتباط خواهد بود؟</span>
+                            </a>
+
+                            <img src="Assets/Img/Body/Campain description/down.svg" alt="">
+
+                        </div>
+                        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum..
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-flex justify-content-between">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                                <span class="fw-bold">دانشجویار چه مبلغی برای کمپین ویژه دوره های من هزینه می کند؟</span>
+                            </a>
+
+                            <img src="Assets/Img/Body/Campain description/down.svg" alt="">
+
+                        </div>
+                        <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum..
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Accordion -->
+
+            </section>
+            <!-- end campain description -->
+
+
+            <!-- Start Chanell ads -->
+            <section dir="rtl" class="container row d-flex justify-content-between">
+
+                <!-- Text -->
+                <div>
+                    <h2 class="fw-bold mt-6">کانال های تبلیغاتی</h2>
+                </div>
+
+                <!-- ads1 -->
+                <div class=" col-2">
+                    <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+
+                        <!-- Pic ads-->
+                        <div>
+                            <img src="Assets/Img/Body/Chanell ads/conversation 1.svg" alt="">
+                        </div>
+    
+                        <!-- Text ads -->
+                        <div>
+                            <span>اس ام اس مارکتینگ</span>
+                        </div>
+    
+                    </a>
+                </div>
+
+                <!-- ads2 -->
+                <div class=" col-2">
+                    <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+
+                        <!-- Pic ads-->
+                        <div>
+                            <img src="Assets/Img/Body/Chanell ads/conversation 2.svg" alt="">
+                        </div>
+    
+                        <!-- Text ads -->
+                        <div>
+                            <span>ایمیل مارکتینگ</span>
+                        </div>
+    
+                    </a>
+                </div>
+
+                <!-- ads3 -->
+                <div class=" col-2">
+                    <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+
+                        <!-- Pic ads-->
+                        <div>
+                            <img src="Assets/Img/Body/Chanell ads/conversation 3.svg" alt="">
+                        </div>
+    
+                        <!-- Text ads -->
+                        <div>
+                            <span>یکتانت</span>
+                        </div>
+    
+                    </a>
+                </div>
+
+                <!-- ads4 -->
+                <div class=" col-2">
+                    <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+
+                        <!-- Pic ads-->
+                        <div>
+                            <img src="Assets/Img/Body/Chanell ads/conversation 4.svg" alt="">
+                        </div>
+    
+                        <!-- Text ads -->
+                        <div>
+                            <span>گوگل ادز</span>
+                        </div>
+    
+                    </a>
+                </div>
+
+                <!-- ads5 -->
+                <div class=" col-2">
+                    <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+
+                        <!-- Pic ads-->
+                        <div>
+                            <img src="Assets/Img/Body/Chanell ads/conversation 5.svg" alt="">
+                        </div>
+    
+                        <!-- Text ads -->
+                        <div>
+                            <span>پوش نوتیفیکیشن</span>
+                        </div>
+    
+                    </a>
+                </div>
+
+                <div class="row d-flex justify-content-between">
+
+                    <!-- ads6 -->
+                    <div class=" col-2">
+                        <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+    
+                            <!-- Pic ads-->
+                            <div>
+                                <img src="Assets/Img/Body/Chanell ads/conversation 5.svg" alt="">
+                            </div>
+        
+                            <!-- Text ads -->
+                            <div>
+                                <span>پوش نوتیفیکیشن</span>
+                            </div>
+        
+                        </a>
+                    </div>
+
+                    <!-- ads7 -->
+                    <div class=" col-2">
+                        <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+    
+                            <!-- Pic ads-->
+                            <div>
+                                <img src="Assets/Img/Body/Chanell ads/conversation 5.svg" alt="">
+                            </div>
+        
+                            <!-- Text ads -->
+                            <div>
+                                <span>پوش نوتیفیکیشن</span>
+                            </div>
+        
+                        </a>
+                    </div>
+
+                    <!-- ads8 -->
+                    <div class=" col-2">
+                        <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+    
+                            <!-- Pic ads-->
+                            <div>
+                                <img src="Assets/Img/Body/Chanell ads/conversation 5.svg" alt="">
+                            </div>
+        
+                            <!-- Text ads -->
+                            <div>
+                                <span>پوش نوتیفیکیشن</span>
+                            </div>
+        
+                        </a>
+                    </div>
+
+                    <!-- ads9 -->
+                    <div class=" col-2">
+                        <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+    
+                            <!-- Pic ads-->
+                            <div>
+                                <img src="Assets/Img/Body/Chanell ads/conversation 5.svg" alt="">
+                            </div>
+        
+                            <!-- Text ads -->
+                            <div>
+                                <span>پوش نوتیفیکیشن</span>
+                            </div>
+        
+                        </a>
+                    </div>
+
+                    <!-- ads10 -->
+                    <div class=" col-2">
+                        <a href="" class="text-decoration-none text-black d-flex flex-column align-items-center bg-light mt-4  py-3 rounded-3 mb-5 ads ">
+    
+                            <!-- Pic ads-->
+                            <div>
+                                <img src="Assets/Img/Body/Chanell ads/conversation 5.svg" alt="">
+                            </div>
+        
+                            <!-- Text ads -->
+                            <div>
+                                <span>پوش نوتیفیکیشن</span>
+                            </div>
+        
+                        </a>
+                    </div>
+
+                </div>
+
+                
+                
+
+
+
+            </section>
+            <!-- End Chanell ads -->
 
 
         </section>
