@@ -36,6 +36,24 @@
     line-height: 2.2rem;
 }
 
-.font-size{
-    font-size: 2rem;
+.font-size08{
+    font-size: 0.8rem;
+}
+
+.closeoffcanvas-btn{
+    border: 0px solid transparent;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3rem;
+    left: 0px;
+    top: 0px;
+    transition-duration: 0.4s;
+}
+
+.closeoffcanvas-btn:hover{
+    border: 2px solid #304aca ;
+    background-color: #304aca91;
+    border-radius:50%;
 }
