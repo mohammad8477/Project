@@ -1,5 +1,5 @@
 .body-bg{
-    background-color: #ecebeb;
+    background-color: #ecebeb ;
 }
 
 .add-text{
@@ -43,17 +43,37 @@
 .closeoffcanvas-btn{
     border: 0px solid transparent;
     background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 3rem;
-    left: 0px;
-    top: 0px;
-    transition-duration: 0.4s;
+    padding: 0px;
 }
 
-.closeoffcanvas-btn:hover{
-    border: 2px solid #304aca ;
-    background-color: #304aca91;
-    border-radius:50%;
+.logo-offcanvas{
+    width: 2rem;
+}
+
+.color-green{
+    background-color: #28B446;
+}
+
+.font-size101{
+    font-size: 1.1rem;
+}
+
+.card{
+    border: 0px solid black !important;
+}
+
+.body-bg-accordion{
+    background-color: #D8E2EC !important;
+}
+
+.accordion-link{
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+.accordion-link:hover{
+    background-color: #304aca;
+    color: white !important;
+
 }

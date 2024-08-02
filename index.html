@@ -58,9 +58,6 @@
 
             </div>
 
-
-
-
             <!-- Logo && profile -->
             <div class="mx-2 my-3 d-flex justify-content-center align-items-center" dir="rtl">
 
@@ -73,32 +70,148 @@
                 <div class="offcanvas offcanvas-end" id="demo">
 
                     <!-- Header -->
-                    <div class="offcanvas-header">
-                    <h1 class="offcanvas-title">Heading</h1>
-                    <button type="button" class="closeoffcanvas-btn position-absolute text-reset" data-bs-dismiss="offcanvas">
-                        <img class="w-100" src="Assets/Img/Header/CloseOfcanvas.svg" alt="">
-                    </button>
+                    <div class="offcanvas-header d-flex justify-content-between">
+                        <img class="logo-offcanvas" src="Assets/Img/Header/daneshjoyar-logo.svg" alt="">
+                        <button type="button" class="closeoffcanvas-btn text-reset" data-bs-dismiss="offcanvas">
+                            <img class="w-100" src="Assets/Img/Header/CloseOfcanvas.svg" alt="">
+                        </button>
                     </div>
 
                     <!-- Body -->
                     <div class="offcanvas-body">
-                    <p>Some text lorem ipsum.</p>
-                    <p>Some text lorem ipsum.</p>
-                    <button class="btn btn-secondary" type="button">A Button</button>
+
+                        <!-- person img & Name -->
+                        <div class="row mb-4">
+
+                            <!-- img -->
+                            <div class="col-3">
+                                <img class="w-100" src="Assets/Img/Header/personImg.svg" alt="">
+                            </div>
+
+                            <!-- name -->
+                            <div class="col-9 row">
+
+                                <div>
+                                    <span class="col-12 text-light px-2 py-1 rounded-3 color-green">77%</span>
+                                </div>
+
+                                <span class="fw-bold">امیر بزی <span class="opacity-75 font-size08">مدرس</span></span>
+                            </div>
+
+                        </div>
+
+                        <!-- Accordion -->
+                        <div>
+                            <div id="accordion">
+
+                                <div class="card body-bg-accordion mb-2">
+                                    <div class="card-header">
+                                        <a class="btn d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseSix">
+
+                                            <div >
+                                                <img class="ms-2" src="Assets/Img/Header/person-circle.svg" alt="">
+                                                <span class="font-size101 fw-bold">پروفایل من </span>
+                                            </div>
+
+                                            <div >
+                                                <img src="Assets/Img/Header/arrow-left.svg" alt="">
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum..
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card body-bg-accordion mb-2">
+                                    <div class="card-header">
+                                        <a class="btn d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseSeven">
+
+                                            <div >
+                                                <img class="ms-2" src="Assets/Img/Header/command.svg" alt="">
+                                                <span class="font-size101 fw-bold">مدیریت کارکنان </span>
+                                            </div>
+
+                                            <div >
+                                                <img src="Assets/Img/Header/arrow-left.svg" alt="">
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body d-flex flex-column align-items-center">
+
+                                            <!-- item 1 -->
+                                            <a class=" w-75 text-black text-decoration-none py-2 px-3 accordion-link mb-2 d-flex justify-content-between" href="">
+                                                <span>مدیریت کارکنان آموزشگاه  </span>
+                                                <img src="Assets/Img/Header/arrow-left.svg" alt="">
+                                            </a>
+
+                                            <!-- item 2 -->
+                                            <a class=" w-75 text-black text-decoration-none py-2 px-3 accordion-link d-flex justify-content-between" href="">
+                                                <span> مدیریت کارکنان پروژه </span>
+                                                <img src="Assets/Img/Header/arrow-left.svg" alt="">
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card body-bg-accordion mb-2">
+                                    <div class="card-header">
+                                        <a class="btn d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseEight">
+
+                                            <div >
+                                                <img class="ms-2" src="Assets/Img/Header/box-2.svg" alt="">
+                                                <span class="font-size101 fw-bold"> سرویس اَد پِلاس </span>
+                                            </div>
+
+                                            <div >
+                                                <img src="Assets/Img/Header/arrow-left.svg" alt="">
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div id="collapseEight" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body d-flex flex-column align-items-center">
+
+                                            <!-- item 1 -->
+                                            <a class=" w-75 text-black text-decoration-none py-2 px-3 accordion-link mb-2" href="">
+                                                <span>توضیحات سرویس</span>
+                                            </a>
+
+                                            <!-- item 2 -->
+                                            <a class=" w-75 text-black text-decoration-none py-2 px-3 accordion-link mb-2" href="">
+                                                <span>درخواست کمپین جدید</span>
+                                            </a>
+
+                                            <!-- item 3 -->
+                                            <a class=" w-75 text-black text-decoration-none py-2 px-3 accordion-link " href="">
+                                                <span> گزارش کمپین ها</span>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 
                 <!-- Button to open the offcanvas sidebar -->
                 <button class="btn btn-light me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
                     <img class="img-profile" src="Assets/Img/Header/person-circle.svg" alt="person">
-                    <span class="fw-bold">محمد بزی</span>
+                    <span class="fw-bold"> امیر بزی</span>
                     <span class="opacity-75 font-size08">مدرس</span>
                 </button>
                 
                 
             </div>
-
-
 
 
         </header>
@@ -473,13 +586,13 @@
                         <div class="d-flex align-items-center col-5 body-bg rounded-3 row m-0 p-0">
 
                             <!-- pic -->
-                            <div class="col-2 py-2">
+                            <div class="col-3 py-2">
                                 <img src="Assets/Img/Body/Feedback/investment.svg" alt="">
                                 <img class="me-2" src="Assets/Img/Body/Feedback/Line 705.svg" alt="">
                             </div>
 
                             <!-- Text -->
-                            <div class="d-flex justify-content-between col-10  ">
+                            <div class="d-flex justify-content-between col-9  ">
                                 <span>مبلغ سرمایه گذاری</span>
                                 <span>12،000،000 تومان</span>
                             </div>
@@ -490,13 +603,13 @@
                         <div class="d-flex align-items-center col-5 body-bg rounded-3 row m-0 p-0">
 
                             <!-- pic -->
-                            <div class="col-2 py-2">
+                            <div class="col-3 py-2">
                                 <img src="Assets/Img/Body/Feedback/income.svg" alt="">
                                 <img class="me-2" src="Assets/Img/Body/Feedback/Line 704.svg" alt="">
                             </div>
 
                             <!-- Text -->
-                            <div class="col-10 d-flex justify-content-between">
+                            <div class="col-9 d-flex justify-content-between">
                                 <span>درآمد مدرس</span>
                                 <span>27،000،000 تومان</span>
                             </div>
