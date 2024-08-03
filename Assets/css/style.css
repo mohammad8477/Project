@@ -24,12 +24,12 @@
     font-style: normal;
 }
 
-.ads{
+.ads-link{
     border: 2px solid rgb(213, 213, 213);
     transition-duration: 0.5s;
 }
 
-.ads:hover{
+.ads-link:hover{
     border:2px solid #304aca !important;
 }
 
@@ -77,10 +77,13 @@
 
 }
 
+.w-20{
+    width: 20%;
+}
+
 .logo-offcanvas{
     width: 2rem;
 }
 
-.w-20{
-    width: 20%;
-}
+
+
