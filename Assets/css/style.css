@@ -1,3 +1,4 @@
+/* Color for body */
 .body-bg{
     background-color: #ecebeb ;
 }
@@ -47,9 +48,7 @@
     padding: 0px;
 }
 
-.logo-offcanvas{
-    width: 2rem;
-}
+
 
 .color-green{
     background-color: #28B446;
@@ -77,3 +76,8 @@
     color: white !important;
 
 }
+
+.logo-offcanvas{
+    width: 2rem;
+}
+
